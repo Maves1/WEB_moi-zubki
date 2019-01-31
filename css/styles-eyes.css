@@ -1,0 +1,153 @@
+.accordion-item {
+    cursor: pointer;
+}
+body {
+    background-color: white;
+}
+
+.jumbotron {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    background-color: white;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.bg-brown {
+    background-color: white;
+}
+
+.bg-bisque {
+    background-color: white;
+}
+
+.btn-brown {
+    background-color: black;
+    color: white;
+}
+
+.btn-brown:hover {
+    background-color: white;
+    color: black;
+}
+
+.border-brown {
+    border-color: black!important;
+}
+
+.btn-contrast {
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+}
+
+.btn-contrast:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn-link-brown{
+    font-weight: 400;
+    color: black;
+    background-color: transparent;
+}
+
+.btn-link-brown:hover {
+    color: burlywood;
+}
+
+#div-bottom {
+    padding-bottom: 10px;
+}
+
+.img-fluid:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.jumbotron-p {
+    font-size: 1.3rem;
+    font-weight: 350;
+}
+
+.jumbotron-h {
+    font-size: 3.5rem;
+    font-weight: 310;
+    line-height: 1.2;
+}
+
+.text-light {
+    color: black!important;
+}
+
+@media only screen and (max-width: 600px) {
+    .display-4 {
+        font-size: 2.5rem;
+        font-weight: 310;
+        line-height: 1.2;
+    }
+
+    .jumbotron-h {
+        font-size: 2.5rem;
+        font-weight: 310;
+        line-height: 1.2;
+    }
+
+    .jumbotron-p {
+        font-size: 1.3rem;
+        font-weight: 310;
+        line-height: 1.2;
+    }
+
+    .btn-contrast {
+        margin-top: 1rem!important;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .display-4 {
+        font-size: 3.2rem;
+        font-weight: 310;
+        line-height: 1.2;
+    }
+
+    .jumbotron-h {
+        font-size: 3.2rem;
+        font-weight: 310;
+        line-height: 1.2;
+    }
+
+    .jumbotron-p {
+        font-size: 1.3rem;
+        font-weight: 330;
+    }
+
+    .btn-contrast {
+        margin-top: 1rem!important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .display-4 {
+        font-size: 3.5rem;
+        font-weight: 310;
+        line-height: 1.2;
+    }
+
+    .jumbotron-h {
+        font-size: 3.5rem;
+        font-weight: 310;
+        line-height: 1.2;
+    }
+
+    .jumbotron-p {
+        font-size: 1.3rem;
+        font-weight: 350;
+    }
+}

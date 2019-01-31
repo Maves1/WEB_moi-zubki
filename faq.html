@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link id="pageStyles" type="text/css" rel="stylesheet" href="css/styles.css">
+
+    <title>Часто задаваемые вопросы | Стоматология "Мои Зубки"</title>
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#000"
+                    },
+                    "button": {
+                        "background": "#f1d600"
+                    }
+                },
+                "position": "top",
+                "static": true,
+                "content": {
+                    "message": "Наш сайт использует Cookies, если Вы не согласны с этим, то покиньте его, пожалуйста",
+                    "dismiss": "Закрыть",
+                    "link": "Узнать больше"
+                }
+            })
+        });
+    </script>
+</head>
+
+<body style="overflow-wrap: break-word">
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-brown">
+            <a class="navbar-brand text-light" href="index.html">Мои Зубки</a>
+
+            <divn class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </divn>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="uslugi.html">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="price-list.html">Цены</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="strahovanie-dms.html">Страхование ДМС</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" data-toggle="dropdown">Пациентам</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="faq.html">Часто задаваемые вопросы</a>
+                            <a class="dropdown-item" href="telephone-numbers.html">Телефоны вышестоящих организаций</a>
+                            <a class="dropdown-item" href="pamyatka.html">Памятка пациенту перед посещением врача</a>
+                            <a class="dropdown-item" href="about-us.html">О нас</a>
+                        </div>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="documents.html">Документы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="feedback.html">Отзывы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="jumbotron">
+
+            <div class="row">
+                <div class="col-xs-12 col-md-7">
+                    <h1 class="jumbotron-h">Стоматология "Мои Зубки"</h1>
+                    <p class="jumbotron-p mt-5">Если Вы застрахованы по программе добровольного медицинского страхования в страховой
+                        компании "ВСК", "МетЛайф", "ВТБ", "РесоГарантия", "Альфа Страхование", то Ваше лечение может быть
+                        оплачено страховой компанией.
+                    </p>
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                    <p class="jumbotron-p font-weight-bold">+7 (000) 000-12-34</p>
+                    <p class="jumbotron-p">г. Уфа, ул. Кота Матроскина 112/4</p>
+                    <p class="jumbotron-p">Пн. - Пт.: 9.00 - 21.00
+                        <br> Сб.: 9.00 - 18.00
+                        <br> Вс.: выходной</p>
+                    <p class="jumbotron-p">E-mail: seva.mikulik@gmail.com</p>
+                    <p class="jumbotron-p">Лицензия №: 000-000-000</p>
+                    <a id="btnBook" class="btn btn-brown" role="button" href="zapis.php">Онлайн запись на прием</a>
+                </div>
+
+                <div class="col-xs-12 col-md-1">
+                    <button id="btnEyes" class="btn btn-contrast">A+</button>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="col">
+
+                <div id="accordion">
+
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <div class="btn-link-brown  accordion-item" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Почему анестетики малоактивны и их обезболивающее действие снижается в очагах воспаления?
+                                </div>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                Для проявления местной анестезирующей активности в тканях должен произойти гидролиз анестетика с освобождением анестетика-
+                                основания, который хорошо растворим в жирах и способен проникать через мембрану нервного
+                                волокна. Гидролиз этих препаратов хорошо происходит в слабощелочной среде и хуже в кислой.
+                                Поэтому в очагах воспаления обезболивающая активность препаратов снижена.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <div class="btn-link-brown accordion-item" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Что такое местная анестезия и местные анестетики?
+                                </div>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                Местная анестезия – это способ выключения болевых ощущений на ограниченном участке тела, что может быть достигнуто путем
+                                поверхностной аппликации, инфильтрации или региональной инъекции анестезирующего средства.
+                                <br>
+                                <br> Местные анестетики– это препараты, которые могут обратимо блокировать проводимость нервов
+                                при введении непосредственно в них или в достаточном количестве вблизи нервного волокна.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <div class="btn-link-brown accordion-item" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    В некоторых популярных изданиях появились сообщения о том, что шоколад не только не обладает кариесогенным действием, но
+                                    даже полезен для зубов. Правда ли это?
+                                </div>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                Нет, неправда. Шоколад содержит очень большое количество сахара и поэтому оказывает выраженное кариесогенное действие. Имеющиеся
+                                в его сотаве масла придают ему липкость, вследствие чего кусочки шоколада прилипают к зубам
+                                и легко задерживаются в ретенционных пунктах. Вследствие этого шоколад не только не образует
+                                защитную для зубов пленку, а наоборот, прилипшие к эмали кусочки оказывают даже более длительное
+                                кариесогенное действие.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h5 class="mb-0">
+                                <div class="btn-link-brown accordion-item" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Можно ли заменить избыточное количество сахарозы в рационе медом?
+                                </div>
+                            </h5>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                            <div class="card-body">
+                                К сожалению, нет, поскольку в организм все же будет поступать избыточное количество легкоусвояемых углеводов в умеренных
+                                количествах и, тем более, в пределах суточного потребления углеводов (сахарозы) такая замена
+                                будет полезна.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                            <h5 class="mb-0">
+                                <div class="btn-link-brown accordion-item" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Какое должно быть допустимое количество сахарозы в суточном рационе питания (безопасное в отношении развития кариеса зубов)?
+                                </div>
+                            </h5>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                            <div class="card-body">
+                                Согласно исследованиям общее суточное потребление сахарозы во всех продуктах питания должно быть в пределах 30-50 грамм.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingSix">
+                            <h5 class="mb-0">
+                                <div class="btn-link-brown accordion-item" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    Какие факторы вызывают развитие кариеса зубов?
+                                </div>
+                            </h5>
+                        </div>
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                            <div class="card-body">
+                                Современные представления о возникновении кариеса зубов предусматривают несколько групп кариесогенных факторов. Это факторы
+                                общего характера, местные и связанные с резистентностью зубных тканей.
+                                <br>
+                                <br> К факторам общего характера относятся неполноценное питание и питьевая вода, болезни
+                                и нарушения функционального состояния внутренних органов, экстремальные воздействия. Местные
+                                факторы– это зубные отложения, микрофлора, нарушение свойств и состава ротовой жидкости (слюны),
+                                углеводные пищевые остатки. Нарушения резистентности зубных тканей связаны с их неполноценной
+                                структурой, отклонениями химического состава, неблагоприятным генетическим кодом. Нужно иметь
+                                в виду, что отдельно взятый кариесогенный фактор или их группа, воздействуя на зуб, делают
+                                его восприимчивым к влиянию непосредственной причины, создавая таким образом кариесогенную
+                                ситуацию.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingSeven">
+                            <h5 class="mb-0">
+                                <div class="btn-link-brown accordion-item" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    Какие существуют пути проникновения питательных веществ в эмаль?
+                                </div>
+                            </h5>
+                        </div>
+                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                            <div class="card-body">
+                                Полученные экспериментальные данные позволяют утверждать, что в зубе существуют два основных пути поступления минеральных
+                                и органических веществ в его твердые ткани.
+                                <br>
+                                <br> Первый– это транспорт минеральных компонентов из пульпы через дентин в эмаль, который,
+                                как оказалось, имеет меньшее значение, второй– поступление веществ эмаль непосредственно
+                                из слюны– позволяет поддерживать ее минеральный состав очень длительное время. Нельзя противопоставлять
+                                один механизм проникновения другому, но по-видимому, основным источником поступления минеральных
+                                веществ в эмаль является ротовая жидкость.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingEight">
+                            <h5 class="mb-0">
+                                <div class="btn-link-brown accordion-item" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    Подскажите, что лучше: штифтовая пломба или коронка (5 верхний зуб). И помогает ли кальций укрепить зубы (таблетки)?
+                                </div>
+                            </h5>
+                        </div>
+                        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                            <div class="card-body">
+                                Если зуб сильно разрушен, то коронка в сочетании с внутрикорневой вкладкой гораздо предпочтительнее, чем пломба со штифтом.
+                                Что касается кальцийсодержащих таблеток, то их применение для укрепления зубов крайне малоэффективно.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingNine">
+                            <h5 class="mb-0">
+                                <div class="btn-link-brown accordion-item" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                    После пломбировки канала 4 верхнего зуба появилось уплотнение (рядом с носом) и отек. Что это может быть? И что мне дальше
+                                    делать?
+                                </div>
+                            </h5>
+                        </div>
+                        <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+                            <div class="card-body">
+                                Если уплотнение и отёк появились, когда вы ещё находились в стоматологическом кресле - это может быть эмфизема мягких тканей,
+                                которая иногда возникает при сушке каналов сильной струёй воздуха. А если эта неприятность
+                                случилась спустя какое-то время- это может быть, например, периостит (воспаление надкостницы).
+                                В любом случае следует поскорее обратиться к врачу.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingTen">
+                            <h5 class="mb-0">
+                                <div class="btn-link-brown accordion-item" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                    Могут ли заболевания в ротовой полости (кариес, отсутствие одного коренного зуба) повлиять на состояние кишечника и его выздоровление,
+                                    метеоризм, запоры, жидкий стул переодически?
+                                </div>
+                            </h5>
+                        </div>
+                        <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+                            <div class="card-body">
+                                Если данные заболевания ещё не вызвали к серьёзных нарушений функций зубо-челюстной системы - то если и могут, то несущественно.
+                                Поэтому, в первую очередь нужно обратиться к специалисту по заболеваниям ЖКТ, но и ротовую
+                                полость необходимо привести в порядок.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="div-bottom" class="row mt-2">
+            <div class="col">
+                <div class="card">
+
+                    <div class="row p-2">
+                        <div class="card-body text-left border-right border-brown">
+                            <p class="card-text">Ответственный за оформление и обновление сайта:
+                                <br> Матроскин К.О.Т.</p>
+                        </div>
+
+                        <div class="card-body text-right">
+                            <p class="card-text">Стоматология "Мои Зубки", г. Уфа
+                                <br> 450000, г. Уфа, ул. Кота Матроскина 112/4
+                                <br> +7 (000) 000-12-34
+                                <br> E-mail: seva.mikulik@gmail.com
+                                <br> Лицензия №: 000-000-000</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="js/high-contrast.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
